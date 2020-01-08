@@ -1,0 +1,9 @@
+# テキストエディタの設定ファイル
+.vscode
+
+# Mac OS
+.DS_Store
+
+# Hugoにより自動生成されたファイルがあるディレクトリ
+/public
+resources
