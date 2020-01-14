@@ -56,7 +56,7 @@ Comming Soon...
 │   └── ja
 │       ├── blog  # お知らせ(Notification)用のファイルを置く
 │       ├── home  # トップ画面に表示される
-│       └── projects  # 過去のイベントや作品用のファイルを置く
+│       └── projects  # 過去のイベントや作品紹介用のファイルを置く
 ├── i18n
 │   └── ja.toml  
 ├── static
