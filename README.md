@@ -73,9 +73,8 @@ Comming Soon...
 $ hugo server -t introduction -D
 ```
 
-### **トップページの編集***
-
-#### 1. ファイルを編集する
+### **トップページの編集**
+Comming Soon...
 
 ### **作品紹介(Projects)ページの作成**
 
