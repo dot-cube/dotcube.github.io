@@ -7,3 +7,6 @@
 # Hugoにより自動生成されたファイルがあるディレクトリ
 /public
 resources
+
+# npmパッケージがあるディレクトリ
+node_modules
