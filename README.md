@@ -28,13 +28,13 @@ Hugo をインストールし、本リポジトリを Clone します。この�
 ```
 $ # Hugoのインストール
 $ wget https://github.com/gohugoio/hugo/releases/download/v0.62.1/hugo_0.62.1_Linux-64bit.deb
-$ https://github.com/gohugoio/hugo/releases/download/v0.62.1/hugo_extended_0.62.1_Linux-64bit.deb
+$ wget https://github.com/gohugoio/hugo/releases/download/v0.62.1/hugo_extended_0.62.1_Linux-64bit.deb
 $ sudo apt install ./hugo_0.62.1_Linux-64bit.deb
 $ sudo apt install ./hugo_extended_0.62.1_Linux-64bit.deb
 $
 $ # リポジトリをモジュールを含めクローン
 $ git clone https://github.com/dot-cube/dot-cube.github.io.git --recursive
-$ cd dot-cube.github.io.git
+$ cd dot-cube.github.io
 $ npm install autoprefixer
 $ npm install postcss-cli
 ```
