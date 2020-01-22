@@ -17,3 +17,5 @@ draft: false
 
 フットスイッチとiOSアプリは自作したコントローラーで、
 iOSアプリでは、iPhoneやiPadを傾けて操作ができる。
+
+![Tilt&nbspポスター](/projects/nagoya2019/photos/Tilt_poster.png)
