@@ -1,7 +1,7 @@
 ---
 title: "宮崎ハッカソン int 2018"
 date: 2020-02-10T17:19:55+09:00
-draft: true
+draft: false
 ---
 
 ### 宮崎ハッカソン int 2018

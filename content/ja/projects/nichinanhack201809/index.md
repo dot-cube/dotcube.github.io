@@ -1,7 +1,7 @@
 ---
 title: "第2回 日南ハッカソン × int"
 date: 2020-02-10T18:23:54+09:00
-draft: true
+draft: false
 ---
 
 ### 第2回 日南ハッカソン × int
