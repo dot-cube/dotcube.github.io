@@ -5,4 +5,4 @@ draft: true
 ---
 
 ### 第1回 日南ハッカソン × int
-[日南ハッカソン × int](https://nichinanhackathon.github.io/) を開催。
+[第1回 日南ハッカソン × int](https://nichinanhackathon.github.io/) を開催。
