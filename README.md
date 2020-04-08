@@ -19,7 +19,6 @@
 
 - wget
 - [git](https://git-scm.com/)
-- npm
 
 #### **Windows(WSL を使用)**
 
@@ -35,8 +34,6 @@ $
 $ # リポジトリをモジュールを含めクローン
 $ git clone https://github.com/dot-cube/dot-cube.github.io.git --recursive
 $ cd dot-cube.github.io
-$ npm install autoprefixer
-$ npm install postcss-cli
 ```
 
 #### **Mac OS**
@@ -49,20 +46,64 @@ Comming Soon...
 ```
 .
 ├── README.md
-├── archetypes
-│   └── default.md
-├── config.toml  # 設定ファイル
-├── content
-│   └── ja
-│       ├── blog  # お知らせ(Notification)用のファイルを置く
-│       ├── home  # トップ画面に表示される
-│       └── projects  # 過去のイベントや作品紹介用のファイルを置く
-├── i18n
-│   └── ja.toml  
-├── static
-│   └── (省略)
-└── themes
-    └── (省略)
+├── archetypes/
+│   ...(省略)
+├── assets/
+│   └── css/
+│       └── style.css
+├── config.toml
+├── content/
+│   ├── about/
+│   │   └── _index.md
+│   ├── blog/
+│   │   └── _index.md
+│   ├── contact/
+│   │   └── _index.md
+│   └── portfolio/
+│       ├── _index.md
+│       ├── icpc2019.md
+│       ...(省略)
+│       └── tilt2019.md
+├── data/
+│   ├── about.yml
+│   ├── homepage.yml
+│   └── portfolio.yml
+├── layouts/
+│   ├── _default/
+│   │   └── single.html
+│   ├── about/
+│   │   └── list.html
+│   ├── contact/
+│   │   └── list.html
+│   ├── index.html
+│   ├── partials/
+│   │   ├── contact.html
+│   │   ├── footer.html
+│   │   ├── head.html
+│   │   ├── header.html
+│   │   └── page-title.html
+│   └── portfolio/
+│       └── list.html
+├── public/
+|   ...(省略)
+├── static/
+│   └── images/
+|       |...(省略)
+│       ├── about/
+│       │   ...(省略)
+│       ├── backgrounds/
+│       │   ...(省略)
+│       ├── icons/
+│       │   ...(省略)
+│       ├── portfolio/
+│       │   ├── icpc2019-01.jpg
+│       │   ├── icpc2019-02.jpg
+|       |   ...(省略)
+│       │   └── tilt2019-06.jpg
+│       └── team/
+│           ...(省略)
+└── themes/
+    └── kross-hugo/
 ```
 
 ## ページ作成・編集方法
@@ -70,13 +111,13 @@ Comming Soon...
 以下のコマンドを実行し、[http://localhost:1313](http://localhost:1313)にアクセスすると、プレビューを確認できます。ファイルを更新すると、自動的にページの再読み込みを行います。
 
 ```
-$ hugo server -t introduction -D
+$ hugo server -t kross-hugo -D
 ```
 
 ### **トップページの編集**
 Comming Soon...
 
-### **作品紹介(Projects)ページの作成**
+### **作品紹介(Portfolio)ページの作成**
 
 #### 1. ファイルを作成する
 以下のコマンドを使用し、ファイルを作成してください。
@@ -84,25 +125,17 @@ Comming Soon...
 
 ```
 $ git pull origin source  # GitHubにある最新のファイルを取得
-$ hugo new ja/projects/[フォルダ名]/index.md
+$ hugo new portfolio/[ファイル名].md
 ```
 
 #### 2. ファイルを編集する
 
-`content/ja/projects/[フォルダ名]/index.md`というファイルが生成されているはずなので、編集します。
+`content/portfolio/[フォルダ名]/index.md`というファイルが生成されているはずなので、編集します。
 （ファイルパスはプロジェクトルートから見たものです）
-
-注意点として、デフォルトで生成されたファイルは、下書きモードになっています。
-
-ファイルの先頭にある`draft: true`がある行を削除するか、`draft: false`と書き換えてください。
 
 #### 3. 画像を追加する
 
-`content/ja/projects/[フォルダ名]/`というフォルダに画像ファイルを追加すると、サムネイルやページを開いた際に当該画像を表示させることができます。
-
-複数枚画像ファイルを追加すると、スライドショーのように画像を表示させることができます。このスライドショーの順序は画像ファイル名の昇順になります。
-
-また、当該ページのサムネイルは画像ファイルを昇順に並べた際、先頭に来るファイルがサムネイルとして設定されます。
+comming soon...
 
 #### 4. ファイルをCommit(編集内容を登録)する
 
@@ -117,38 +150,5 @@ $ git commit -m "登録内容に関するメッセージ(何をしたのか、�
 $ git pull origin source  # GitHubにある最新のファイルを取得
 $ git push origin source
 ```
-
-
-### **お知らせ(Notification)の作成**
-
-#### 1. ファイルを作成する
-以下のコマンドを使用し、ファイルを作成してください。
-`[ファイル名]`の部分は作成したいファイル名に置き換えてください。
-
-```
-$ git pull origin source  # GitHubにある最新のファイルを取得
-$ hugo new ja/blog/[ファイル名].md
-```
-
-#### 2. ファイルを編集する
-
-`content/ja/blog/[ファイル名].md`というファイルが生成されているはずなので、編集します。
-（ファイルパスはプロジェクトルートから見たものです）
-
-注意点として、デフォルトで生成されたファイルは、下書きモードになっています。
-
-ファイルの先頭にある`draft: true`がある行を削除するか、`draft: false`と書き換えてください。
-
-#### 3. ファイルをCommit(編集内容を登録)する
-
-```
-$ git add content/ja/blog/[ファイル名].md
-$ git commit -m "登録内容に関するメッセージ(何をしたのか、何故変更したのかなど)"
-```
-
-#### 4. ファイルをPush(アップロード)する
-
-```
-$ git pull origin source  # GitHubにある最新のファイルを取得
-$ git push origin source
-```
+### 使用テーマ
+[Kross Hugo](https://themes.gohugo.io/kross-hugo-portfolio-template/)
