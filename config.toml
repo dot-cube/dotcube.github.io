@@ -64,7 +64,7 @@ address_link = "http://www.miyazaki-u.ac.jp/"
 author = "dot cube"
 description = "\"dot cube\"は宮崎大学のデジタルコンテンツセーサクサークルです。ゲーム制作や競技プログラミング、ハッカソンへの参加と行った活動を主に行っています。"
 # google analitycs
-google_analitycs_id = "" # Your ID
+google_analitycs_id = "UA-163090822-1" # Your ID
 # copyright
 copyright = "Copyrighht &copy; 2020 [dot cube](https://dot-cube.github.io)"
 
