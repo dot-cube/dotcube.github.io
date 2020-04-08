@@ -1,0 +1,40 @@
+<!-- contact -->
+<section class="section section-on-footer" data-background="{{`images/backgrounds/bg-dots.png` | absURL}}">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-5">
+        <h2 class="section-title">
+            {{.Site.Params.contact.title | safeHTML}}
+            <p class="sub-title">{{.Site.Params.contact.subtitle | safeHTML}}</p>
+        </h2>
+        <p>{{.Site.Params.contact.description | safeHTML}}</p>
+      </div>
+      <div class="col-lg-8 mx-auto">
+        <div class="bg-white rounded text-center p-5 shadow-down">
+          <h4 class="mb-80">{{.Site.Params.contact.form_title | safeHTML}}</h4>
+          <form action="{{.Site.Params.contact.form_action}}" method="POST" class="row" target="_blank">
+            <div class="col-md-6">
+              <input type="text" id="name" name="{{.Site.Params.contact.name_area_name}}" placeholder="氏名"
+                class="form-control px-0 mb-4" required>
+            </div>
+            <div class="col-md-6">
+              <input type="email" id="email" name="{{.Site.Params.contact.email_area_name}}" placeholder="メールアドレス"
+                class="form-control px-0 mb-4" required>
+            </div>
+            <div class="col-12">
+              <textarea name="{{.Site.Params.contact.message_area_name}}" id="message" class="form-control px-0 mb-4"
+                placeholder="内容" required></textarea>
+            </div>
+            <div class="col-lg-6 col-10 mx-auto">
+              <button class="btn btn-primary w-100 mb-3">送信</button>
+              <span class="">{{.Site.Params.contact.send_button_description | safeHTML}}</span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- /contact -->

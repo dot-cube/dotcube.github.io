@@ -1,0 +1,84 @@
+<!-- footer -->
+<footer class="bg-dark footer-section">
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 mb-5">
+          <img class="symbol-logo-footer rounded" src="/images/logo-symbol.png" alt="symbol logo">
+        </div>
+        <div class="col-12 col-md-3 mb-5">
+          <div class="row">
+            <div class="col-12">
+              <h4 class="text-light">Contents</h4>
+            </div>
+            {{ $current := . }}
+            {{ range .Site.Menus.main }}
+            {{ $active := or ($current.IsMenuCurrent "nav" .) ($current.HasMenuCurrent "nav" .) }}
+            {{ $active = or $active (eq .Name $current.Title) }}
+            {{ if .HasChildren }}
+            <div class="col-12">
+              <h5 class="text-light">{{ .Name }}</h5>
+                {{ range .Children }}
+                <p class="text-white paragraph-lg font-secondary"><a
+                  href="{{ .URL | absURL }}">{{ .Name }}</a></p>
+                {{ end }}
+            </div>
+            {{ else }}
+            <div class="col-12">
+              <p class="text-light paragraph-lg font-secondary"><a
+                  href="{{ .URL | absURL }}">{{ .Name }}</a></p>
+            </div>
+            {{ end }}
+            {{ end }}
+          </div>
+        </div>
+        <div class="col-12 col-md-3 mb-5">
+          <div class="row">
+            <div class="col-12">
+              <h4 class="text-light">Info</h4>
+            </div>
+            <div class="col-12">
+              <p class="text-light paragraph-lg font-secondary">Email：<a
+                  href="mailto:{{.Site.Params.email}}">{{.Site.Params.email}}</a></p>
+            </div>
+            <div class="col-12">
+              <p class="text-light paragraph-lg font-secondary">Twitter：<a href="https://twitter.com/{{.Site.Params.twitter}}"
+                  target="_blank">@{{.Site.Params.twitter}}</a></p>
+            </div>
+            <div class="col-12">
+              <p class="text-light paragraph-lg font-secondary">Address：<a href="{{.Site.Params.address_link}}"
+                  target="_blank">{{.Site.Params.address}}</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="border-top text-center border-dark py-5">
+    <p class="mb-0 text-light">{{ .Site.Params.copyright | markdownify }}</p>
+  </div>
+</footer>
+<!-- /footer -->
+
+{{ "<!-- JS Plugins -->" | safeHTML }}
+{{ range .Site.Params.plugins.js}}
+<script src="{{ .URL | absURL }}"></script>
+{{ end }}
+
+{{ "<!-- Main Script -->" | safeHTML }}
+{{ $script := resources.Get "js/script.js" | minify}}
+<script src="{{ $script.Permalink }}"></script>
+
+{{ "<!-- google analitycs -->" | safeHTML }}
+{{ with .Site.Params.google_analitycs_id }}
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  ga('create', '{{ . }}', 'auto');
+  ga('send', 'pageview');
+</script>
+{{ end }}

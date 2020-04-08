@@ -6,8 +6,13 @@ author_image : "images/about/author.jpg"
 author_signature : "images/about/signature.png"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+わたしたち dot cube は
+宮崎大学で活動するクリエイター、プログラマーのために設立された「デジタルコンテンツ制作サークル」です。
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+部員は12人で毎週火曜日の17：00～19：00に図書館で活動しています。
+主な活動は、プログラミングやデザインの勉強を通してゲームやwebサイトなどのデジタルコンテンツを作ったり、プログラミング関係イベントの主催、参加などです。
+いままでプログラミングもデザインもやったことない…という方も大歓迎！！先輩もほとんど大学から始めています！！
 
-Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.
+ちょっとでも気になった方はぜひ遊びに来てみてください！
+
+

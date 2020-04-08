@@ -1,0 +1,56 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h3 class="font-tertiary mb-5">{{.Title}}</h3>
+        <p class="font-secondary">Published on {{ .PublishDate.Format "Jan 02, 2006" }} by <span
+            class="text-primary">{{.Site.Params.Author}}</span></p>
+        <div class="content row">
+          {{if .Params.images }}
+
+          <div id="carouselIndicators" class="carousel slide col-md-10 offset-md-1 col-12 rounded" data-ride="carousel"
+            style="background-color: gainsboro;">
+            <!-- インジケータの設定 -->
+            <ol class="carousel-indicators">
+              {{$active := true}}
+              {{ range $index, $element := .Params.images }}
+              <li data-target="#carouselIndicators" data-slide-to="{{ $index }}"
+                class="{{if $active}} active {{$active = false}} {{end}}"></li>
+              {{ end }}
+            </ol>
+            <!-- スライドさせる画像の設定 -->
+            <div class="carousel-inner">
+              {{$active := true}}
+              {{ range $index, $element := .Params.images }}
+              <div class="carousel-item {{if $active}} active {{$active = false}} {{end}} mt-4"
+                style=" margin: 0 auto; text-align: center;">
+                <img src="{{ $element.img | absURL }}" alt="post-thumb" class="rounded"
+                  style="max-width: 100%; max-height: 100%; object-fit: cover;">
+              </div><!-- /.carousel-item -->
+              {{ end }}
+            </div><!-- /.carousel-inner -->
+            <!-- スライドコントロールの設定 -->
+            <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon mb-0" aria-hidden="true"></span>
+              <span class="sr-only">前へ</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon mb-0" aria-hidden="true"></span>
+              <span class="sr-only">次へ</span>
+            </a>
+          </div><!-- /.carousel -->
+          {{ end }}
+          <div class="col-12 mt-5">
+            {{.Content | safeHTML }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

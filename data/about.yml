@@ -1,41 +1,38 @@
 # work process
 work_process:
   enable : true
-  title : "Work Process"
+  title : "Activity"
+  subtitle: "活　動"
   item:
-  - title : "Research and Plan"
-    icon : "images/icons/plan.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  - title : "ゲーム制作"
+    icon : "images/icons/game-dev.svg"
+    content : "UnityやProcessingを利用したゲームを制作し、大学祭で展示したり、コンテストに応募したりしています。"
     
-  - title : "Design and Develop"
-    icon : "images/icons/design.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  - title : "電子工作"
+    icon : "images/icons/electronic-dev.svg"
+    content : "Raspberry Pi や Arduino を使用して、ラジコンやスマートロックなどを制作しています。"
     
-  - title : "Deliver"
-    icon : "images/icons/print.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  - title : "大会参加"
+    icon : "images/icons/contests.svg"
+    content : "ハッカソンやゲームコンテスト、ロボットコンテスト、競技プログラミングなどに参加したりしています。"
 
 
 # team
 team:
   enable: true
-  title : "My Team"
+  title : "Role"
+  subtitle: "役　割"
   team_member:
-    - title : "Jack Schenziwe"
-      image : "images/team/member-1.png"
-      designation : "Project Manager"
+    - title : "<div style='font-weight: bold;'>エンジニア</div>"
+      image : "images/team/engineer.png"
+      designation : "ものを作る人です"
       
-    - title : "Julias Carlie"
-      image : "images/team/member-2.png"
-      designation : "Web Developer"
-      
-    - title : "John Doe"
-      image : "images/team/member-3.png"
-      designation : "Designer"
-
+    - title : "<div style='font-weight: bold;'>デザイナー</div>"
+      image : "images/team/designer.png"
+      designation : "カッコよくする人です"
 
 # client logo slider
 clients_logo_slider:
-  enable : true
+  enable : false
   title : "My Clients"
   # clients logo comes from 'data/homepage.yml' file
