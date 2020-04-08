@@ -62,7 +62,7 @@ address = "University of Miyazaki"
 address_link = "http://www.miyazaki-u.ac.jp/"
 # meta description
 author = "dot cube"
-description = "\"dot cube\"は宮崎大学のデジタルコンテンツセーサクサークルです。ゲーム制作や競技プログラミング、ハッカソンへの参加と行った活動を主に行っています。"
+description = "\"dot cube\"は宮崎大学のデジタルコンテンツ制作サークルです。ゲーム制作や競技プログラミング、ハッカソンへの参加と行った活動を主に行っています。"
 # google analitycs
 google_analitycs_id = "UA-163090822-1" # Your ID
 # copyright
