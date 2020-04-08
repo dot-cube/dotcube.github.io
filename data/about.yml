@@ -16,7 +16,6 @@ work_process:
     icon : "images/icons/contests.svg"
     content : "ハッカソンやゲームコンテスト、ロボットコンテスト、競技プログラミングなどに参加したりしています。"
 
-
 # team
 team:
   enable: true
@@ -30,9 +29,3 @@ team:
     - title : "<div style='font-weight: bold;'>デザイナー</div>"
       image : "images/team/designer.png"
       designation : "カッコよくする人です"
-
-# client logo slider
-clients_logo_slider:
-  enable : false
-  title : "My Clients"
-  # clients logo comes from 'data/homepage.yml' file

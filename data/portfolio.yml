@@ -54,9 +54,3 @@ item:
     title: "プログラミング体験講座"
     project_url : "/portfolio/prog-lecture2019"
     category: "event"
-
-# client logo slider
-clients_logo_slider:
-  enable : false
-  title : "My Clients"
-  # clients logo comes from 'data/homepage.yml' file
