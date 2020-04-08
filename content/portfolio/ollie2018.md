@@ -1,5 +1,5 @@
 ---
-title: "Title"
+title: "Ollie"
 date: 2019-05-12T12:14:34+06:00
 description: "学祭展示用に作った、実際に板の上でジャンプして操作するスケボーのゲームです。"
 images:
