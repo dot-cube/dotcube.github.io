@@ -48,8 +48,8 @@ $ mkdir ~/bin
 $ cd ~/bin
 $
 $ # extract the tarball
-$ tar -xvzf ~/LOCAL/hugo_0.62.1_macOS-64bit.tar.gz
-$ tar -xvzf ~/LOCAL/hugo_extended_0.62.1_macOS-64bit.tar.gz
+$ tar -xvzf ~/hugo_0.62.1_macOS-64bit.tar.gz
+$ tar -xvzf ~/hugo_extended_0.62.1_macOS-64bit.tar.gz
 $
 $ # 走るか確認
 $ ./hugo version
