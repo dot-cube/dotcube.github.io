@@ -39,9 +39,6 @@ $ cd dot-cube.github.io
 #### **Mac OS**
 tarballをダウンロードして展開します。
 ```
-$ # wgetのインストール
-$ brew install wget
-$
 $ # Hugoのダウンロード(tarball)
 $ wget https://github.com/gohugoio/hugo/releases/download/v0.62.1/hugo_0.62.1_macOS-64bit.tar.gz
 $ wget https://github.com/gohugoio/hugo/releases/download/v0.62.1/hugo_extended_0.62.1_macOS-64bit.tar.gz
