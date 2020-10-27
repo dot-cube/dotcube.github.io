@@ -54,3 +54,8 @@ item:
     title: "プログラミング体験講座"
     project_url : "/portfolio/prog-lecture2019"
     category: "event"
+
+  - image : "/images/portfolio/prog-lecture2020/title.jpg"
+    title: "2020年度プログラミング体験講座"
+    project_url : "/portfolio/prog-lecture2020"
+    category: "event"
