@@ -1,5 +1,10 @@
 # portfolio item
 item:
+  - image : "/images/portfolio/prog-lecture2020/title.jpg"
+    title: "2020年度プログラミング体験講座"
+    project_url : "/portfolio/prog-lecture2020"
+    category: "event"
+
   - image : "images/portfolio/icpc2019-sumnail.jpg"
     title: "ICPC2019"
     project_url : "/portfolio/icpc2019"
@@ -53,9 +58,4 @@ item:
   - image : "/images/portfolio/prog-lecture2019-title.jpg"
     title: "プログラミング体験講座"
     project_url : "/portfolio/prog-lecture2019"
-    category: "event"
-
-  - image : "/images/portfolio/prog-lecture2020/title.jpg"
-    title: "2020年度プログラミング体験講座"
-    project_url : "/portfolio/prog-lecture2020"
     category: "event"
