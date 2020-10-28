@@ -59,3 +59,8 @@ item:
     title: "2020年度プログラミング体験講座"
     project_url : "/portfolio/prog-lecture2020"
     category: "event"
+
+  - image : "/images/portfolio/touchdesigner-vj2020/title.png"
+    title: "TouchDesignerでVJソフト"
+    project_url : "/portfolio/touchdesigner-vj2020"
+    category: "design"
