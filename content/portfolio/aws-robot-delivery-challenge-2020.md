@@ -17,7 +17,8 @@ images:
 工夫点としては、遠隔でロボットの状態を確認したり、停止処理や移動指示をロボットへ出すためのWebUIを独自に制作しました。  
 また、ロボットの移動用プログラムや経路計算プログラム、障害物検知プログラムなども独自に制作しました。  
 
-コロナウィルスの感染拡大に伴い、実際に集まって開発を行う事が困難になったため、VS Code の [Live Share](https://visualstudio.microsoft.com/ja/services/live-share/) 機能や [Discord](https://discord.com/) などのサービスを利用して、当初の開発スタイルであるモブプログラミングを続けました。
+コロナウィルスの感染拡大に伴い、実際に集まって開発を行う事が困難になったため、VS Code の [Live Share](https://visualstudio.microsoft.com/ja/services/live-share/) 機能や [Discord](https://discord.com/) などのサービスを利用して開発を行いました。  
+これにより、当初の開発スタイルであるモブプログラミングを続けることができました。
 
 以下に使用した主な技術を記します。
 
