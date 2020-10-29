@@ -37,8 +37,35 @@ $ cd dot-cube.github.io
 ```
 
 #### **Mac OS**
+tarballをダウンロードして展開します。
+```
+$ # Hugoのダウンロード(tarball)
+$ wget https://github.com/gohugoio/hugo/releases/download/v0.62.1/hugo_0.62.1_macOS-64bit.tar.gz
+$ wget https://github.com/gohugoio/hugo/releases/download/v0.62.1/hugo_extended_0.62.1_macOS-64bit.tar.gz
+$
+$ # ディレクトリ ~/bin を作成
+$ mkdir ~/bin
+$ cd ~/bin
+$
+$ # extract the tarball
+$ tar -xvzf ~/hugo_0.62.1_macOS-64bit.tar.gz
+$ tar -xvzf ~/hugo_extended_0.62.1_macOS-64bit.tar.gz
+$
+$ # 走るか確認
+$ ./hugo version
+$ 
+$ # パスを通す
+$ echo "export PATH=$PATH:$HOME/bin" >> ~/.zshrc
+$ source ~/.zshrc
+```
+ここまでがHugoの設定です。以下からはWindowsと同様です。`--recursive` オプションをつけるのを忘れないでください。
+```
+$ # リポジトリをモジュールを含めクローン
+$ git clone https://github.com/dot-cube/dot-cube.github.io.git --recursive
+$ cd dot-cube.github.io
+```
 
-Comming Soon...
+※ **brew**を使って簡単にセットアップを行う方法もありますが、Windowsとバージョン等を揃えるために以上のようにしています。
 
 
 ## ディレクトリ構造とファイル
