@@ -43,6 +43,7 @@ CSSフレームワーク：[Bootstrap 4](https://getbootstrap.jp/docs/4.5/extend
 #### 詳細情報
 GitHub リポジトリ：[https://github.com/Takahiro55555/AwsRobotDeliveryChallenge](https://github.com/Takahiro55555/AwsRobotDeliveryChallenge)
 
+
 #### AWS Robot Delivery Challenge とは？
 
 > 若者のプログラミング技術や創作意欲を高め、これからの IT 社会を作っていく学生の皆様を支援することを目的に、「AWS Robot Delivery Challenge」を開催します。
@@ -50,10 +51,11 @@ GitHub リポジトリ：[https://github.com/Takahiro55555/AwsRobotDeliveryChall
 > 従来のようなロボットを一から作り動かすロボコンとは違って、AWS が用意する規定のロボットを皆様が作ったアプリケーションで動かすことで、ミニチュアの街に設置されたコースを走らせ、コース各所に点在する住宅に所定の商品を届けられるかを競います。
 >  
 > このコンテストを見つけた高校、高専、大学、専門学校、大学院に通う学生の皆様が主役です。AWS を初めて体験するという方やアプリケーション開発の経験がそれほどない方向けに、サンプルアプリケーションとシミュレーションマップが配布され、それらを実装する方法をご紹介するオンラインセミナーも実施します。テクノロジーの世界を楽しんで学ぶことができるこの機会、奮ってご参加ください !
+> 
+> （引用元：[AWS Robot Delivery Challenge ~学生のためのアプリケーションで競うロボットコンテスト~](https://aws.amazon.com/jp/robot-delivery-challenge/)）
 
-（引用元：[AWS Robot Delivery Challenge ~学生のためのアプリケーションで競うロボットコンテスト~](https://aws.amazon.com/jp/robot-delivery-challenge/)）
-
+解説記事：[学生たちが自律移動ロボットで自動運転とAIの技術を競う「AWSロボットデリバリーチャレンジ」開催！優勝は千葉工業大学](https://robotstart.info/2020/09/16/aws-robot-dc-2020.html)
 
 ##### 画像出典
-決勝戦結果画像：[https://twitter.com/awscloud_jp/status/1305791112351641601](https://twitter.com/awscloud_jp/status/1305791112351641601)  
+決勝戦結果画像：[https://twitter.com/awscloud_jp/status/1305791112351641601/photo/2](https://twitter.com/awscloud_jp/status/1305791112351641601/photo/2)  
 本戦結果画像：[https://twitter.com/awscloud_jp/status/1305773857513435136](https://twitter.com/awscloud_jp/status/1305791112351641601)  
