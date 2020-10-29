@@ -8,7 +8,10 @@ Processingを用いてお絵かきソフトを作ることによって、プロ�
 本講座の成果物 1年生の作品 部員の作品1 部員の作品2</description></item><item><title>Smart Lock</title><link>/portfolio/smartlock/</link><pubDate>Fri, 27 Mar 2020 13:14:07 +0900</pubDate><guid>/portfolio/smartlock/</guid><description>制作物 弊サークルの部員２名で製作中です。
 ハードウェアはFusion360という3DCADでモデリングを行い、3Dプリンタで出力しました。
 Raspberry Pi ZeroというマイコンとPythonというプログラミング言語を使用して制御しています。
-外部リンク 動作の様子(Twitter)</description></item><item><title>ICPC2019</title><link>/portfolio/icpc2019/</link><pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate><guid>/portfolio/icpc2019/</guid><description>「国際大学対抗プログラミングコンテスト ICPC」に出場、全チーム中「342位」でした。
+外部リンク 動作の様子(Twitter)</description></item><item><title>AWS Robot Delivery Challenge 2020</title><link>/portfolio/aws-robot-delivery-challenge-2020/</link><pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate><guid>/portfolio/aws-robot-delivery-challenge-2020/</guid><description>アマゾン ウェブ サービス ジャパン株式会社が主催するロボットコンテスト「AWS Robot Dlivery Challenge」の本戦・決勝戦へ、弊サークルのメンバー３人が出場しました。
+最終結果は5位でした。
+工夫点としては、遠隔でロボットの状態を確認したり、停止処理や移動指示をロボットへ出すためのWebUIを独自に制作しました。
+また、ロボットの移動用プログラムや経路計算プログラム、障害物検知プログラムなども独自に制作しました。</description></item><item><title>ICPC2019</title><link>/portfolio/icpc2019/</link><pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate><guid>/portfolio/icpc2019/</guid><description>「国際大学対抗プログラミングコンテスト ICPC」に出場、全チーム中「342位」でした。
 今年はもっと順位上げたいので競技プログラミングに興味ある新入生大歓迎です！！
 外部リンク ICPC 2019 国内予選結果</description></item><item><title>LT会</title><link>/portfolio/lt2019/</link><pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate><guid>/portfolio/lt2019/</guid><description>LT会とは？ サークルに入ったばかりで、「そもそもプログラミングで何ができるのかわからない&amp;hellip;」 という新入生のために、dot cubeでは先輩たちがLT会（スライドを使った簡単な発表）をしてくれます。
 このLT会で自分のやりたいことを見つけてプログラミングへのモチベーションを高めてもらいます。</description></item><item><title>Ollie</title><link>/portfolio/ollie2018/</link><pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate><guid>/portfolio/ollie2018/</guid><description>Ollieとは？ 学祭展示用に作った、実際に板の上でジャンプして操作するスケボーのゲームです。
