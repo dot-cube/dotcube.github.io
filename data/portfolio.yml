@@ -1,5 +1,10 @@
 # portfolio item
 item:
+  - image : "/images/portfolio/touchdesigner-vj2020/title.png"
+    title: "TouchDesignerでVJソフト"
+    project_url : "/portfolio/touchdesigner-vj2020"
+    category: "event"
+    
   - image : "images/portfolio/aws-robot-delivery-challenge-2020/99-thumbnail.jpeg"
     title: "AWS Robot Delivery Challenge 2020"
     project_url : "/portfolio/aws-robot-delivery-challenge-2020"
@@ -64,8 +69,3 @@ item:
     title: "プログラミング体験講座"
     project_url : "/portfolio/prog-lecture2019"
     category: "event"
-
-  - image : "/images/portfolio/touchdesigner-vj2020/title.png"
-    title: "TouchDesignerでVJソフト"
-    project_url : "/portfolio/touchdesigner-vj2020"
-    category: "design"
