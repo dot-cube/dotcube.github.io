@@ -1,5 +1,10 @@
 # portfolio item
 item:
+  - image : "images/portfolio/aws-robot-delivery-challenge-2020/99-thumbnail.jpeg"
+    title: "AWS Robot Delivery Challenge 2020"
+    project_url : "/portfolio/aws-robot-delivery-challenge-2020"
+    category: "contests"
+
   - image : "/images/portfolio/prog-lecture2020/title.jpg"
     title: "2020年度プログラミング体験講座"
     project_url : "/portfolio/prog-lecture2020"
