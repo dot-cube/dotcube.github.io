@@ -57,5 +57,5 @@ GitHub リポジトリ：[https://github.com/Takahiro55555/AwsRobotDeliveryChall
 解説記事：[学生たちが自律移動ロボットで自動運転とAIの技術を競う「AWSロボットデリバリーチャレンジ」開催！優勝は千葉工業大学](https://robotstart.info/2020/09/16/aws-robot-dc-2020.html)
 
 ##### 画像出典
-決勝戦結果画像：[https://twitter.com/awscloud_jp/status/1305791112351641601/photo/2](https://twitter.com/awscloud_jp/status/1305791112351641601/photo/2)  
-本戦結果画像：[https://twitter.com/awscloud_jp/status/1305773857513435136](https://twitter.com/awscloud_jp/status/1305791112351641601)  
+決勝戦結果画像：[https://twitter.com/awscloud_jp/status/1305791112351641601](https://twitter.com/awscloud_jp/status/1305791112351641601)  
+本戦結果画像：[https://twitter.com/awscloud_jp/status/1305773857513435136](https://twitter.com/awscloud_jp/status/1305773857513435136)  
