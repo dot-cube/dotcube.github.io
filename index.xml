@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home</title><link>/</link><description>Recent content on Home</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 27 Mar 2020 13:14:07 +0900</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Smart Lock</title><link>/portfolio/smartlock/</link><pubDate>Fri, 27 Mar 2020 13:14:07 +0900</pubDate><guid>/portfolio/smartlock/</guid><description>制作物 弊サークルの部員２名で製作中です。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home</title><link>/</link><description>Recent content on Home</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 12 May 2020 12:14:34 +0600</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>2020年度プログラミング体験講座</title><link>/portfolio/prog-lecture2020/</link><pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate><guid>/portfolio/prog-lecture2020/</guid><description>プログラミング体験講座とは？ dot cubeでは毎年新入生向けに『プログラミング体験講座』を実施しています。
+「プログラミング、気になるけど難しそうだな&amp;hellip;」そんな新入生にお絵かきソフトの作成を通してプログラミングの楽しさを知ってもらおうという取り組みです！
+Processingを用いてお絵かきソフトを作ることによって、プログラミングの楽しさを体験することができます。
+説明は自作のスライドを使い、実演を交えながら行います。
+司会１人に加えて補佐の部員が説明を丁寧にするため、躓くことなくソフトを開発することができます。
+講義は3回に分けて、毎回1時間程度行います。
+今年はオンラインで開催し、20人ほどの新入生が参加してくれました！！
+本講座の成果物 1年生の作品 部員の作品1 部員の作品2</description></item><item><title>Smart Lock</title><link>/portfolio/smartlock/</link><pubDate>Fri, 27 Mar 2020 13:14:07 +0900</pubDate><guid>/portfolio/smartlock/</guid><description>制作物 弊サークルの部員２名で製作中です。
 ハードウェアはFusion360という3DCADでモデリングを行い、3Dプリンタで出力しました。
 Raspberry Pi ZeroというマイコンとPythonというプログラミング言語を使用して制御しています。
 外部リンク 動作の様子(Twitter)</description></item><item><title>ICPC2019</title><link>/portfolio/icpc2019/</link><pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate><guid>/portfolio/icpc2019/</guid><description>「国際大学対抗プログラミングコンテスト ICPC」に出場、全チーム中「342位」でした。
