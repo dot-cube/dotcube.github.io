@@ -65,7 +65,7 @@ noindex = false  # true にすると、検索エンジンに登録されなく�
 author = "dot cube"
 description = "\"dot cube\"は宮崎大学のデジタルコンテンツ制作サークルです。ゲーム制作や競技プログラミング、ハッカソンへの参加と行った活動を主に行っています。"
 # google analitycs
-use_google_analitycs = false  # Google Analitycs を使用するか否か。プレビュー用ページなどのページをビルドする際は false にする。
+use_google_analitycs = true  # Google Analitycs を使用するか否か。プレビュー用ページなどのページをビルドする際は false にする。
 google_analitycs_id = "UA-163090822-1" # Your ID
 # copyright
 copyright = "Copyrighht &copy; 2020 [dot cube](https://dot-cube.github.io)"
