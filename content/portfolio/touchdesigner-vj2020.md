@@ -15,7 +15,7 @@ images:
 > 引用元：[Wikipedia TouchDesigner（英語）](https://en.wikipedia.org/wiki/TouchDesigner) 
 
 
-2020年7月4日に行われたアニソンDJイベント「えんどるふぃんVol.40」にて、実際にイベントでプレイしました。
+2020年7月4日に行われたアニソンDJイベント「えんどるふぃんVol.40」にて、実際にプレイしました。
 
 * [Twitter](https://twitter.com/bboy_puccho/status/1278346625874710529)
 * [note記事](https://note.com/comgicon/n/nb6cb08ba7b49)

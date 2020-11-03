@@ -1,6 +1,6 @@
 # portfolio item
 item:
-  - image : "/images/portfolio/touchdesigner-vj2020/title.png"
+  - image : "/images/portfolio/touchdesigner-vj2020/thumbnail.png"
     title: "TouchDesignerでVJソフト"
     project_url : "/portfolio/touchdesigner-vj2020"
     category: "event"
