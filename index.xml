@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home</title><link>/</link><description>Recent content on Home</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 12 May 2020 12:14:34 +0600</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>2020年度プログラミング体験講座</title><link>/portfolio/prog-lecture2020/</link><pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate><guid>/portfolio/prog-lecture2020/</guid><description>プログラミング体験講座とは？ dot cubeでは毎年新入生向けに『プログラミング体験講座』を実施しています。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home</title><link>/</link><description>Recent content on Home</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 16 Jul 2020 12:00:00 +0600</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>TouchDesigner VJシステム</title><link>/portfolio/touchdesigner-vj2020/</link><pubDate>Thu, 16 Jul 2020 12:00:00 +0600</pubDate><guid>/portfolio/touchdesigner-vj2020/</guid><description>弊サークルの部員がTouchDesignerでVJシステムを自作しました！
+TouchDesignerとは？
+リアルタイムのインタラクティブなマルチメディアコンテンツのための、ノードベースのビジュアルプログラミング言語です。
+引用元：Wikipedia TouchDesigner（英語）
+2020年7月4日に行われたアニソンDJイベント「えんどるふぃんVol.40」にて、実際にプレイしました。
+Twitter note記事</description></item><item><title>2020年度プログラミング体験講座</title><link>/portfolio/prog-lecture2020/</link><pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate><guid>/portfolio/prog-lecture2020/</guid><description>プログラミング体験講座とは？ dot cubeでは毎年新入生向けに『プログラミング体験講座』を実施しています。
 「プログラミング、気になるけど難しそうだな&amp;hellip;」そんな新入生にお絵かきソフトの作成を通してプログラミングの楽しさを知ってもらおうという取り組みです！
 Processingを用いてお絵かきソフトを作ることによって、プログラミングの楽しさを体験することができます。
 説明は自作のスライドを使い、実演を交えながら行います。
