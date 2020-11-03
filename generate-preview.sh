@@ -5,7 +5,7 @@ CONFIG_FILE="config.toml"
 # config.toml の書き換え
 echo "[Log] Rewriting the 'config.toml'."
 sed -i -e 's/noindex = false/noindex = true/' ${CONFIG_FILE}
-sed -i -e 's/use_google_analitycs = false/use_google_analitycs = false/' ${CONFIG_FILE}
+sed -i -e 's/use_google_analitycs = true/use_google_analitycs = false/' ${CONFIG_FILE}
 echo "[Log] Done."
 
 # ビルド
