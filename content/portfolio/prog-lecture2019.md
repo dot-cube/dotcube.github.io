@@ -3,11 +3,11 @@ title: "プログラミング体験講座"
 date: 2019-05-12T12:14:34+06:00
 description: "dot cubeでは毎年新入生向けに『プログラミング体験講座』を実施しています。「プログラミング、気になるけど難しそうだな...」そんな新入生にお絵かきソフトの作成を通してプログラミングの楽しさを知ってもらおうという取り組みです！"
 images:
-    - img: "/images/portfolio/prog-lecture2019-title.jpg"
-    - img: "/images/portfolio/prog-lecture2019-01.jpg"
-    - img: "/images/portfolio/prog-lecture2019-02.jpg"
-    - img: "/images/portfolio/prog-lecture2019-03.jpg"
-    - img: "/images/portfolio/prog-lecture2019-04.jpg"
+    - img: "/images/portfolio/prog-lecture2019/title.jpg"
+    - img: "/images/portfolio/prog-lecture2019/01.jpg"
+    - img: "/images/portfolio/prog-lecture2019/02.jpg"
+    - img: "/images/portfolio/prog-lecture2019/03.jpg"
+    - img: "/images/portfolio/prog-lecture2019/04.jpg"
 ---
 
 #### プログラミング体験講座とは？

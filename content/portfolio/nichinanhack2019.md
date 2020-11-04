@@ -3,15 +3,15 @@ title: "日南ハッカソン"
 date: 2019-05-12T12:14:34+06:00
 description: "日南市とのコラボイベントです。プログラマー、デザイナー、プランナーでチームを作り、短期間で一つの作品を作って競います。"
 images:
-    - img: "/images/portfolio/nichinanhack2019-01-group.jpg"
-    - img: "/images/portfolio/nichinanhack2019-02-champion.jpg"
-    - img: "/images/portfolio/nichinanhack2019-02-group.jpg"
-    - img: "/images/portfolio/nichinanhack2019-02-jedge.jpg"
-    - img: "/images/portfolio/nichinanhack2019-02-opening.jpg"
-    - img: "/images/portfolio/nichinanhack2019-02-party.jpg"
-    - img: "/images/portfolio/nichinanhack2019-02-planning.jpg"
-    - img: "/images/portfolio/nichinanhack2019-02-presentation.jpg"
-    - img: "/images/portfolio/nichinanhack2019-02-staff.jpg"
+    - img: "/images/portfolio/nichinanhack2019/01-group.jpg"
+    - img: "/images/portfolio/nichinanhack2019/02-champion.jpg"
+    - img: "/images/portfolio/nichinanhack2019/02-group.jpg"
+    - img: "/images/portfolio/nichinanhack2019/02-jedge.jpg"
+    - img: "/images/portfolio/nichinanhack2019/02-opening.jpg"
+    - img: "/images/portfolio/nichinanhack2019/02-party.jpg"
+    - img: "/images/portfolio/nichinanhack2019/02-planning.jpg"
+    - img: "/images/portfolio/nichinanhack2019/02-presentation.jpg"
+    - img: "/images/portfolio/nichinanhack2019/02-staff.jpg"
 ---
 
 ### 日南ハッカソンとは？
