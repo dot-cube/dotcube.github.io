@@ -42,7 +42,7 @@ item:
 
   - image : "images/portfolio/smartlock2019/01.jpg"
     title: "スマートロック"
-    project_url : "/portfolio/smartlock"
+    project_url : "/portfolio/smartlock2019"
     category: "electronic"
 
   - image : "images/portfolio/tilt2019/01.png"
