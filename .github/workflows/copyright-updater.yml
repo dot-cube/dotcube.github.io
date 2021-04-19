@@ -1,0 +1,29 @@
+name: Copyright updater
+
+on:
+  schedule:
+    # 毎年01月01日 (JST) に処理を実行する。
+    # UTC の 12月31日 15:00 は JST だと 01月01日 00:00 。
+    - cron: '00 15 12 31 *'
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@source
+
+      - name: Update copyright
+        run: sed -i -r "s/(^copyright\s?=\s?.+)[0-9]{4}(.+$)/\1`TZ=Asia/Tokyo date '+%Y'`\2/g" config.toml
+
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Update copyright" -a
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
