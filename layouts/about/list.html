@@ -87,6 +87,26 @@
 {{ end }}
 <!-- /team -->
 
+<!-- schedule -->
+{{ if .Site.Params.schedule.enable }}
+{{ with .Site.Params.schedule }}
+<section class="section" style="text-align: center;">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">
+          {{ .title | safeHTML }}
+          <p class="sub-title">{{ .subtitle | safeHTML }}</p>
+        </h2>
+      </div>
+      <iframe src="{{ .gcalendar_src }}" style="border:solid 1px #777" width="1200" height="600" frameborder="0" scrolling="no"></iframe>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /schedule -->
+
 {{ if .Site.Data.about.clients_logo_slider.enable }}
 <section class="section">
   <div class="container">
