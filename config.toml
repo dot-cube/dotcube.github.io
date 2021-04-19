@@ -83,6 +83,14 @@ name_area_name = "entry.624016201"
 email_area_name = "entry.1770681918"
 message_area_name = "entry.1806422541"
 
+# Google カレンダーの埋め込み
+# schedule
+[params.schedule]
+enable = true
+title = "Schedule"
+subtitle = "活動日時・場所"
+gcalendar_src = "https://calendar.google.com/calendar/embed?src=dotcubecrafter%40gmail.com&ctz=Asia%2FTokyo"
+
 # preloader
 [params.preloader]
 enable = true
