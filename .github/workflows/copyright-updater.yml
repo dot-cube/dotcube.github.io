@@ -5,6 +5,7 @@ on:
     # 毎年01月01日 (JST) に処理を実行する。
     # UTC の 12月31日 15:00 は JST だと 01月01日 00:00 。
     - cron: '0 15 31 12 *'
+  workflow_dispatch:
 
 jobs:
   build-deploy:
