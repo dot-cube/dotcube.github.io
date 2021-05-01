@@ -1,5 +1,10 @@
 # portfolio item
 item:
+  - image : "/images/portfolio/uocon2021/thumbnail.png"
+    title: "さかなゲーム「魚魂（UOCON）」"
+    project_url : "/portfolio/uocon2021"
+    category: "game"
+
   - image : "/images/portfolio/touchdesigner-vj2020/thumbnail.png"
     title: "TouchDesignerでVJソフト"
     project_url : "/portfolio/touchdesigner-vj2020"
